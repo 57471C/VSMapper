@@ -1,5 +1,7 @@
 # VSMapper
 
+![VSMapper Application Interface](./assets/screenshot.png)
+
 **VSMapper** is a lightweight, framework-free Value Stream Mapping (VSM) tool built explicitly as the "Big Brother" companion to the **TimeStudy** application ecosystem. 
 
 Designed for continuous improvement, lean, and industrial engineering practitioners, VSMapper bridges the macro-level visual stream layout with micro-level time study metrics.
