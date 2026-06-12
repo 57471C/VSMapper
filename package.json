@@ -1,0 +1,19 @@
+{
+    "name": "vsmapper",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "format": "biome format --write .",
+        "lint": "biome lint .",
+        "check": "biome check --write ."
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.4.16",
+        "@tailwindcss/vite": "^4.0.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.0.0"
+    }
+}

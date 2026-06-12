@@ -1,0 +1,21 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Project specific archives
+*.zip
+*.tspz
+*.vsmz
+
+# Local developer overrides & settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Future development artifacts
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/

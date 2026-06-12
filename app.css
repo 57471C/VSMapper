@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* You can put any custom local global overrides here if you want */
+:root {
+    --vsm-menubar: #1A1D24;
+    --vsm-toolbar: #20242C;
+    --vsm-panel: #FFFFFF;
+    --vsm-toolbar-active: #F59E0B;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.mono {
+    font-family: 'JetBrains Mono', monospace;
+}
