@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* You can put any custom local global overrides here if you want */
+/* ── DESIGN TOKENS & APPLICATION ROOTS ── */
 :root {
     --vsm-menubar: #1A1D24;
     --vsm-toolbar: #20242C;
@@ -14,4 +14,22 @@ body {
 
 .mono {
     font-family: 'JetBrains Mono', monospace;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* ── START SCREEN CUSTOM STYLING ── */
+.recent-card {
+    transition: all 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.recent-card:hover {
+    transform: translateY(-1px);
 }
